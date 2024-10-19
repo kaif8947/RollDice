@@ -3,8 +3,8 @@ import NumberSelector from "./NumberSelector"
 import RoleDice from "./RoleDice";
 import TotalScore from "./TotalScore"
 import styled from "styled-components"
-import Rules from "./rules";
-import { Button, OutlineButton } from "../Styled/Button";
+import rules from "./rules";
+import { Button, OutlineButton } from "../styled/Button";
 const GamePlay = () => {
   const [score,setScore] = useState(0);
   const [selectedNumber,setSelectedNumber] = useState();
